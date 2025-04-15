@@ -3,15 +3,15 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ymaia-do <ymaia-do@student.42.fr>          +#+  +:+       +#+         #
+#    By: yasmin <yasmin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/09 12:48:14 by ymaia-do          #+#    #+#              #
-#    Updated: 2025/01/09 14:00:08 by ymaia-do         ###   ########.fr        #
+#    Updated: 2025/04/15 12:03:19 by yasmin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_printf.a
-SRCS = ft_printf.c ft_printf_utils.c ft_printf_utils2.c
+SRCS = ft_printf.c ft_printf_utils.c
 		
 
 OBJS = $(SRCS:.c=.o)
